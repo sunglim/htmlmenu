@@ -1,0 +1,102 @@
+
+
+body {
+  margin: 0;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  
+}
+div {
+	
+}
+#main-div {
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+	/*background-color:#1D2646;*/
+}
+#left-sidebar {
+	width:300px;
+	left:0px;
+	top:0px;
+	/*background-color: #EBEBEB;*/
+	
+	background: -webkit-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Chrome10+,Safari5.1+ */
+	
+}
+#templet{
+background: -webkit-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* IE10+ */
+background: linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* W3C */
+}
+
+#right-sidebar {
+	position:absolute;
+	left:980px;
+	/*float: right;*/
+	width:300px;
+	top:0px;
+	background-color: #EBEBEB;
+}
+#left-menus {
+    padding: 0px;
+}
+#right-menus {
+	padding: 0px;
+    margin-top: 0px;
+}
+.menu-list-item	{
+	display: block; /*to remove a li mark*/
+	line-height: 40px; 
+	padding: 10px;
+	/*background-color:#3073B8;*/
+}
+.right-menu-list-item:hover {
+	background: #1C1C1C;
+}
+.a-link {
+    margin-left: 20px;
+	color: #3B5998;
+	font-size : 44px;
+}
+.guide-item {
+	display: block;
+	min-height: 45px;
+	line-height: 45px;
+	position: relative;
+	margin:0;
+	padding:0 5px 0 10px;
+	border-right:14px solid transparent;
+	color: #999;
+	font-size:25px;
+	background-image : -webkit-linear-gradient(top,#292929 0,#252525 100%);
+	text-decoration: none;
+}
+.guide-item:hover {
+	border-right-color: #666;
+	text-decoration: none;
+	background: #1C1C1C;
+}
+.guide-item-container {
+	border-top: 1px solid #323232;
+	border-bottom: 1px solid #1B1B1B;
+	list-style: none;
+}
+.guide-item .display-name {
+	display: inline-block;
+	line-height: 2.2em;
+	width: 175px;
+}
+.thumb {
+	display: inline-block;
+	margin-right: 5px;
+}
+.thumb, .display-name{
+	line-height: 0;
+	vertical-align: middle;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}

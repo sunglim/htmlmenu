@@ -8,6 +8,10 @@ body {
 div {
 	
 }
+#left-sidebar {
+	position:absolute;
+	background-color: #333;
+}
 #main-div {
 	left: 0px;
 	top: 0px;
@@ -15,37 +19,14 @@ div {
 	height: 720px;
 	/*background-color:#1D2646;*/
 }
-#left-sidebar {
-	width:300px;
-	left:0px;
-	top:0px;
-	/*background-color: #EBEBEB;*/
-	
-	background: -webkit-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Chrome10+,Safari5.1+ */
-	
-}
-#templet{
-background: -webkit-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* IE10+ */
-background: linear-gradient(left, #ebf1f6 0%,#abd3ee 0%,#d5ebfb 0%,#89c3eb 99%); /* W3C */
-}
 
-#right-sidebar {
-	position:absolute;
-	left:980px;
-	/*float: right;*/
-	width:300px;
-	top:0px;
-	background-color: #EBEBEB;
-}
 #left-menus {
     padding: 0px;
+	width:275px;
+	display: block; 
+	margin-bottom: 0px;
 }
-#right-menus {
-	padding: 0px;
-    margin-top: 0px;
-}
+
 .menu-list-item	{
 	display: block; /*to remove a li mark*/
 	line-height: 40px; 

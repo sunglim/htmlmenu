@@ -4,10 +4,23 @@
 <title>Test Portal</title>
 <meta http-equiv="content-type" content="Content-Type: application/vnd.hbbtv.xhtml+xml; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="./base.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript">
+$(function()
+{
+	// open left menu
+	$("#left-sidebar").animate({"left":"+=320px"},"fast");
+	 
+	// close left menu
+	//$("#left-sidebar").animate({"left":"-=320px"},"fast");
+	
+});
+</script>
 </head>
 <body>
 	<div id="main-div">
-		<div id="left-sidebar">
+		<div id="left-sidebar" style="left:-320px;height:720px">
+		nike
 		<ul id="left-menus">
 			<li class="guide-item-container">
 				<a href="http://www.google.com/" class="guide-item">
@@ -56,48 +69,16 @@
 				<span class="display-name">스포츠
 				</span>
 				</a>
-			</li>			
-		</ul
-		</div>
-		<div id="right-sidebar">
-		<ul id="right-menus">
-			<li class="menu-list-item">
-				<span>
-				<img src="./facebook.jpg" width="50" height="50"/>
+			</li>
+			<li class="guide-item-container">
+				<a href="http://www.google.com/" class="guide-item">
+				<span class="thumb">
+					<img src="./facebook.jpg" class="system-con system popular" width="28" height="28"/>
 				</span>
-				<a href="http://www.facebook.com/" class="a-link">Facebook
+				<span class="display-name">스포츠
+				</span>
 				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./youtube.jpg" width="50" height="50"/>
-				<a href="http://www.youtube.com/" class="a-link">Youtube
-				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./google.jpg" width="50" height="50"/>
-				<a href="http://www.google.com/" class="a-link">Google
-				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./google.jpg" width="50" height="50"/>
-				<a href="http://www.google.com/" class="a-link">Google
-				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./google.jpg" width="50" height="50"/>
-				<a href="http://www.google.com/" class="a-link">Google
-				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./google.jpg" width="50" height="50"/>
-				<a href="http://www.google.com/" class="a-link">Google
-				</a>
-			</li>
-			<li class="menu-list-item">
-				<img src="./facebook.jpg" width="50" height="50"/>
-				<a href="http://www.google.com/" class="a-link">Google
-				</a>
-			</li>
+			</li>				
 		</ul
 		</div>
 	</div>
